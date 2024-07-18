@@ -1,0 +1,82 @@
+body {
+  font-family: 'Circular Std', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* un mínimo de altura para que el contenido no se superponga */
+  margin: 0;
+  background-color: #fdfffc;
+  color: #FFFFFF;
+  overflow: auto;
+}
+
+.container {
+  text-align: center;
+  background: #2ec4b6;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 1200px;
+}
+
+h1 {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+#cartel-nombres {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  background: #ffffff;
+  color: #000000;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.columna {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px; /* Asegura un ancho mínimo para las columnas */
+}
+
+.columna div {
+  padding: 5px 0;
+}
+
+.columna h2 {
+  margin-top: 0;
+  color: #2ec4b6;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: #fdfffc;
+  color: #2ec4b6;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #e71d36;
+  color: #fdfffc;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  #cartel-nombres {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .columna {
+    margin: 10px 0;
+    width: 100%; /* Asegura que las columnas tomen todo el ancho en móviles */
+  }
+}

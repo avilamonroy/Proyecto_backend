@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Nombres de Grupos de Música</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Nombres de Grupos de Música</h1>
+        <div class="emoji-container">
+            <span id="emoji1">🍕</span>
+            <span id="emoji2">🍔</span>
+            <span id="emoji3">🍣</span>
+        </div>
+        <div id="nombre-grupo">🙄</div>
+        <button class="btn" id="generar-btn">Generar Nombre</button>
+        <button class="btn" id="guardar-btn">Guardar Nombre</button>
+        <button class="btn" id="ver-grupos-btn">Ver Grupos Guardados</button>
+        <button class="btn" id="gen-cartel-btn" disabled>Generar Cartel</button>
+        <div>
+            <a>
+                Has guardado <span id="total-guardados">0</span> nombres. 
+            </a>
+            <br>
+            <a id="alerta-restantes">
+                Tienes que guardar <span id="nombres-restantes">3</span> nombres más para ver el cartel. 
+            </a>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
