@@ -11,7 +11,7 @@ body {
 
 .container {
   text-align: center;
-  background: #2ec4b6;
+  background: #8bd2d9;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -39,7 +39,7 @@ h1 {
   padding: 15px 30px;
   font-size: 1rem;
   background-color: #fdfffc;
-  color: #2ec4b6;
+  color: #8bd2d9;
   border: none;
   border-radius: 25px;
   cursor: pointer;
